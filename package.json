@@ -1,0 +1,41 @@
+{
+  "name": "@mousebomb/paseo-gilded-fortune",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Gilded Fortune (金运亨通) dark and light themes for Paseo.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mousebomb/paseo-gilded-fortune.git"
+  },
+  "homepage": "https://github.com/mousebomb/paseo-gilded-fortune#readme",
+  "bugs": {
+    "url": "https://github.com/mousebomb/paseo-gilded-fortune/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "paseo",
+    "paseo-plugin",
+    "theme",
+    "gilded-fortune",
+    "dark-theme",
+    "color-scheme"
+  ],
+  "files": [
+    "index.client.ts",
+    "paseo-plugin.json",
+    "OVERVIEW.md",
+    "README.md",
+    "README.zh.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@getpaseo/plugin": "^0.13.2",
+    "typescript": "^5.9.3"
+  }
+}
