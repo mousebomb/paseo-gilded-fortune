@@ -1,5 +1,6 @@
 {
   "id": "gilded-fortune",
+  "icon": "assets/icon.png",
   "requirements": {
     "paseo": ">=0.8.0"
   }

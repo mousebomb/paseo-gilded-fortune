@@ -1,6 +1,6 @@
 {
   "name": "@mousebomb/paseo-gilded-fortune",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "description": "Gilded Fortune (金运亨通) dark and light themes for Paseo.",
   "license": "MIT",
@@ -24,6 +24,7 @@
     "color-scheme"
   ],
   "files": [
+    "assets/icon.png",
     "index.client.ts",
     "paseo-plugin.json",
     "OVERVIEW.md",

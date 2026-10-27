@@ -67,3 +67,5 @@ paseo plugin reload gilded-fortune
 ## License
 
 MIT。主题配色由作者自建的五行「补金」运势页推导，无第三方色板版权依赖。
+
+图标中的「金」字由 [思源宋体](https://github.com/adobe-fonts/source-han-serif)（Source Han Serif CN Heavy，SIL Open Font License 1.1）渲染为位图，字体文件本身不随插件分发。

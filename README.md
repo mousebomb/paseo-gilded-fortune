@@ -58,3 +58,5 @@ Full values and contrast ratios: [`design/palette.svg`](./design/palette.svg), g
 ## License
 
 MIT. The palette is derived from the author's own five-element "metal" (补金) page; no third-party palette license applies.
+
+The icon's 「金」glyph is rendered to a bitmap from [Source Han Serif](https://github.com/adobe-fonts/source-han-serif) CN Heavy (SIL Open Font License 1.1); the font itself is not distributed with the plugin.
