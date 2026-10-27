@@ -4,7 +4,11 @@
 
 为 [Paseo](https://github.com/getpaseo/paseo) 提供的 **金运亨通（Gilded Fortune）** 明暗双主题：近黑褐色底、压一档的鎏金强调色、奶油白正文，配一套同源推导的羊皮纸亮色版。
 
-![Gilded Fortune 配色对照](./design/palette.svg)
+| 暗色 Gilded Fortune | 亮色 Gilded Fortune Light |
+|---|---|
+| ![暗色](./design/preview-dark.png) | ![亮色](./design/preview-light.png) |
+
+![配色卡](./design/palette.svg)
 
 ## 安装
 

@@ -4,7 +4,11 @@ English | [中文](README.zh.md)
 
 Two themes for [Paseo](https://github.com/getpaseo/paseo): **Gilded Fortune** (dark) and **Gilded Fortune Light** (parchment). Near-black warm brown surfaces, a muted gilded accent, cream body text — both ends built from one palette.
 
-![Gilded Fortune palette](./design/palette.svg)
+| Dark | Light |
+|---|---|
+| ![Dark](./design/preview-dark.png) | ![Light](./design/preview-light.png) |
+
+![Palette](./design/palette.svg)
 
 ## Install
 
