@@ -29,6 +29,7 @@ git clone https://github.com/mousebomb/paseo-gilded-fortune.git
 cd paseo-gilded-fortune
 npm install
 npm run typecheck
+npm test
 paseo plugin add .
 ```
 

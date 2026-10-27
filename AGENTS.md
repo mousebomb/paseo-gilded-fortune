@@ -72,6 +72,18 @@
 | 暗端 | 15.91:1 | 9.98:1 | 8.68:1（原味）/ 7.81:1（压一档） | 13.35:1 |
 | 亮端 | 14.89:1 | 6.02:1 | 5.08:1 | 12.15:1 |
 
+## 测试
+
+`test/palette.test.ts` 用 Node 内置 `node:test`（Node ≥22.18 可直接跑 `.ts`，无需构建、无第三方依赖）验证 8 色契约：
+
+- 只注册 `dark` / `light` 两个主题，`appearance` 对应正确
+- 每个主题恰好 8 个字段，且都是合法十六进制
+- 正文对背景 ≥ 7:1、气泡文字对 `border` ≥ 4.5:1、次要文字 ≥ 4.5:1
+- 强调色对背景 ≥ 4.5:1（因为强调底色上的文字取 `background`）
+- 亮端强调金必须比暗端更深，防止浅底误用同一值
+
+改色后 `npm test` 必须通过。若确实要放宽阈值，先改测试并在 devlog 写明原因。
+
 ## 设计稿
 
 `design/palette.svg` 由 `design/gen_palette_svg.py` 生成（纯 Python 标准库，无依赖）。
@@ -87,6 +99,7 @@ python3 design/gen_palette_svg.py
 export PATH="/Applications/Paseo.app/Contents/Resources/bin:$PATH"
 
 npm run typecheck                 # 必须通过
+npm test                          # 色板契约测试（node:test，无第三方依赖）
 paseo plugin add .                # 首次安装
 paseo plugin reload gilded-fortune
 paseo plugin ls
